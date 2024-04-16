@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { legacy_createStore } from 'redux';
 import { Provider } from 'react-redux';
-import reducer from './store/reducer';
+import barreauReducer from './reducers/barreaux';
 
-
-const store = legacy_createStore(reducer);
+const store = legacy_createStore(barreauReducer);
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
-    <App />
-  </Provider>
+    <Provider store={store}>
+        <App/>
+    </Provider>
 );

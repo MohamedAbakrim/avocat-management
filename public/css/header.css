@@ -1,0 +1,13 @@
+body header{
+    background-color: white;
+}
+body header .container{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+body header #menu{
+    cursor: pointer;
+    transition: all .5s ease;
+}

@@ -1,0 +1,32 @@
+body .barreau{
+    position: absolute;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    width:79.9%;
+    transition: width .7s ease;
+}
+body .barreau .container{
+    background-color: white;
+    margin-top:15px;
+}
+body .barreau .center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body .barreau .container table{
+    text-align: center;
+    width: 100%;
+    margin:20px 0;
+}
+body .barreau .container form{
+    margin:20px 0;
+}
+body .barreau .container form{
+    width:40%;
+}
+body .barreau .container form input{
+    margin-bottom: 10px;
+    width:100%
+}
